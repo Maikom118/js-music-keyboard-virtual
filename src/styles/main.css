@@ -4,18 +4,18 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: #e3f2fd;
-  color: #fff;
+  color: #ff0000;
 }
 
 .container {
   width: 780px;
   border-radius: 20px;
   padding: 35px 40px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .container header {
-  color: #b2b2b2;
+  color: #00ff37;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,7 +37,7 @@ header .column span {
 }
 
 .volume-slider input {
-  accent-color: #fff;
+  accent-color: #3700ff;
 }
 
 .keys-check input {
@@ -45,7 +45,7 @@ header .column span {
   height: 30px;
   appearance: none;
   border-radius: 30px;
-  background-color: #4b4b4b;
+  background-color: #15ff00;
   cursor: pointer;
   position: relative;
 }
@@ -65,7 +65,7 @@ header .column span {
 
 .keys-check input:checked::before {
   left: 2.1rem;
-  background-color: #fff;
+  background-color: #e5ff00;
 }
 
 .piano-keys {
